@@ -1,4 +1,9 @@
+from typing import Final
+from telegram import Update
+from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
+import qrcode
 from io import BytesIO
+from aiogram import Bot, Dispatcher, types, executor
 import telebot
 from telebot import types
 token=''
