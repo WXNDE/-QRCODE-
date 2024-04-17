@@ -6,7 +6,7 @@ from io import BytesIO
 from aiogram import Bot, Dispatcher, types, executor
 import telebot
 from telebot import types
-token='6756288095:AAHOr7WLy45ohwaJ1VZlVm0OqYTH1kAjOeQ'
+token=''
 bot=telebot.TeleBot(token)
 @bot.message_handler(commands=['input'])
 def send_qr(message):
